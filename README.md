@@ -9,5 +9,5 @@ Personal mathematical software to understand integrity in depth.
 - Reed-Solomon code
 <br/></br>
 ## Hash Inspection ##
-- Secure hash algorithm ( SHA-256 / SHA-512 )
+- Secure hash algorithm ( SHA-2 )
 - Message digest algorithm ( MD5 )
