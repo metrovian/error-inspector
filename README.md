@@ -10,4 +10,4 @@ Personal mathematical software to understand integrity in depth.
 <br/></br>
 ## Hash Inspection ##
 - Secure hash algorithm ( SHA-2 )
-- Message digest algorithm ( MD5 )
+- Message digest algorithm ( MD5 / MD6 )
