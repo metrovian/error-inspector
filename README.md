@@ -13,3 +13,6 @@ Personal mathematical software to understand integrity in depth.
 - Fibonacci algorithm
 - Message digest algorithm ( MD5 )
 - Secure hash algorithm ( SHA-2 )
+
+<br/></br>
+Copyright (c) 2025 metrovian [ MIT LICENSE ]
