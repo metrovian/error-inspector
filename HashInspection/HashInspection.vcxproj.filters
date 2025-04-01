@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{083418f3-583c-4be5-a1b1-59320d899283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hash">
+      <UniqueIdentifier>{399b3dfb-38a9-421f-bc67-275a48145bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hash\Base">
+      <UniqueIdentifier>{1dfadb9a-0259-43ff-9e95-63083c21bdf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hash\Concrete">
+      <UniqueIdentifier>{6df6cf79-89a1-40b5-bf8d-6637b50c7bfc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hash.h">
+      <Filter>Hash\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Hash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
