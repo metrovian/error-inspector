@@ -18,9 +18,21 @@
     <ClInclude Include="Hash.h">
       <Filter>Hash\Base</Filter>
     </ClInclude>
+    <ClInclude Include="MultiplicativeHash.h">
+      <Filter>Hash\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="FibonacciHash.h">
+      <Filter>Hash\Concrete</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Hash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplicativeHash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
