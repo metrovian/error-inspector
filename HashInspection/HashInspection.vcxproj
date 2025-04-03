@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="FibonacciHash.h" />
     <ClInclude Include="Hash.h" />
     <ClInclude Include="MultiplicativeHash.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="FibonacciHash.cpp" />
     <ClCompile Include="Hash.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MultiplicativeHash.cpp" />

@@ -1,9 +1,10 @@
 #include "Hash.h"
 #include "MultiplicativeHash.h"
+#include "FibonacciHash.h"
 
 int main()
 {
-	Hash* engine = new MultiplicativeHash();
+	Hash* engine = new FibonacciHash();
 
 	std::vector<uint8_t> hash1 = engine->str_hash("x64/HashInspection.exe");
 	std::vector<uint8_t> hash2 = engine->file_hash("x64/HashInspection.exe");
@@ -12,7 +13,7 @@ int main()
 	{
 		std::cout 
 			<< std::hex 
-			<< static_cast<uint64_t>(hash1[i]) << " ";
+			<< static_cast<uint64_t>(hash1[i]);
 	}
 	std::cout << std::endl;
 
@@ -20,7 +21,7 @@ int main()
 	{
 		std::cout
 			<< std::hex
-			<< static_cast<uint64_t>(hash2[i]) << " ";
+			<< static_cast<uint64_t>(hash2[i]);
 	}
 	std::cout << std::endl;
 
