@@ -1,10 +1,11 @@
 #include "Hash.h"
 #include "MultiplicativeHash.h"
 #include "FibonacciHash.h"
+#include "MD5.h"
 
 int main()
 {
-	Hash* engine = new FibonacciHash();
+	Hash* engine = new MD5();
 
 	std::vector<uint8_t> hash1 = engine->str_hash("x64/HashInspection.exe");
 	std::vector<uint8_t> hash2 = engine->file_hash("x64/HashInspection.exe");

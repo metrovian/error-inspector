@@ -1,4 +1,6 @@
 #pragma once
+#include <windows.h>
+#include <wincrypt.h>
 #include <string>
 #include <vector>
 #include <iostream>
