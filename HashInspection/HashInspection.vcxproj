@@ -131,6 +131,7 @@
     <ClInclude Include="Hash.h" />
     <ClInclude Include="MD5.h" />
     <ClInclude Include="MultiplicativeHash.h" />
+    <ClInclude Include="SHA512.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FibonacciHash.cpp" />
@@ -138,6 +139,9 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MD5.cpp" />
     <ClCompile Include="MultiplicativeHash.cpp" />
+    <ClCompile Include="SHA256.cpp" />
+    <ClCompile Include="SHA256.h" />
+    <ClCompile Include="SHA512.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
