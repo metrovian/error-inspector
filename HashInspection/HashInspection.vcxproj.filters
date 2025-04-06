@@ -21,46 +21,46 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Hash.h">
+    <ClInclude Include="include\SHA512.h">
+      <Filter>Hash\Concrete\Standard Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MD5.h">
+      <Filter>Hash\Concrete\Standard Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FibonacciHash.h">
+      <Filter>Hash\Concrete\Custom Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MultiplicativeHash.h">
+      <Filter>Hash\Concrete\Custom Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Hash.h">
       <Filter>Hash\Base</Filter>
-    </ClInclude>
-    <ClInclude Include="MD5.h">
-      <Filter>Hash\Concrete\Standard Hash</Filter>
-    </ClInclude>
-    <ClInclude Include="FibonacciHash.h">
-      <Filter>Hash\Concrete\Custom Hash</Filter>
-    </ClInclude>
-    <ClInclude Include="MultiplicativeHash.h">
-      <Filter>Hash\Concrete\Custom Hash</Filter>
-    </ClInclude>
-    <ClInclude Include="SHA512.h">
-      <Filter>Hash\Concrete\Standard Hash</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Hash.cpp">
+    <ClCompile Include="source\FibonacciHash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MultiplicativeHash.cpp">
+    <ClCompile Include="source\Hash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FibonacciHash.cpp">
+    <ClCompile Include="source\MD5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MD5.cpp">
+    <ClCompile Include="source\MultiplicativeHash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SHA256.h">
+    <ClCompile Include="source\SHA256.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SHA512.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SHA256.h">
       <Filter>Hash\Concrete\Standard Hash</Filter>
-    </ClCompile>
-    <ClCompile Include="SHA256.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SHA512.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
