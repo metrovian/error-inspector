@@ -1,13 +1,23 @@
 #include "Block.h"
 
-bool Block::set_raw(const std::vector<uint8_t>& _raw)
+uint64_t Block::input_block() const
 {
-	raw = _raw;
-	return true;
+    return 0;
 }
 
-bool Block::set_redc(const std::vector<uint8_t>& _redc)
+uint64_t Block::encode_block() const
 {
-	redc = _redc;
-	return true;
+    return 0;
+}
+
+bool Block::encode()
+{
+    redc = raw;
+    return true;
+}
+
+bool Block::decode()
+{
+    raw = redc;
+    return true;
 }
