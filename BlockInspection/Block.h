@@ -60,5 +60,29 @@ template<uint8_t N>
 inline std::vector<uint8_t> Block::inverse(std::vector<std::bitset<N>> _bits)
 {
 	std::vector<uint8_t> ret;
+
+	uint8_t cap = 0;
+
+	uint8_t bit = 1;
+	uint8_t byte = 0;
+
+	for (uint64_t i = 0; i < _bits.size(); ++i)
+	{
+		for (uint64_t j = 0; j < N; ++j)
+		{
+			byte |= _bits[i][j] ? bit : 0;
+			bit <<= 1;
+
+			if (++cap == 8)
+			{
+				ret.push_back(byte);
+				cap = 0;
+
+				bit = 1;
+				byte = 0;
+			}
+		}
+	}
+
 	return ret;
 }
