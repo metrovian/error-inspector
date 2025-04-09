@@ -21,8 +21,8 @@ public: /* control */
 	std::vector<uint8_t>& get_redc() { return redc; }
 
 protected: /* block */
-	virtual uint64_t input_block() const { return 0; };
-	virtual uint64_t encode_block() const { return 0; };
+	virtual uint8_t input_block() const { return 0; };
+	virtual uint8_t encode_block() const { return 0; };
 
 public: /* virtual */
 	virtual bool encode();
@@ -82,6 +82,11 @@ inline std::vector<uint8_t> Block::inverse(std::vector<std::bitset<N>> _bits)
 				byte = 0;
 			}
 		}
+	}
+
+	if (cap)
+	{
+		ret.push_back(byte);
 	}
 
 	return ret;
