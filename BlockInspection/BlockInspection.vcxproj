@@ -128,11 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Block.h" />
+    <ClInclude Include="Expander84.h" />
     <ClInclude Include="Hadamard32.h" />
     <ClInclude Include="Hamming74.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Expander84.cpp" />
     <ClCompile Include="Hadamard32.cpp" />
     <ClCompile Include="Hamming74.cpp" />
     <ClCompile Include="main.cpp" />
