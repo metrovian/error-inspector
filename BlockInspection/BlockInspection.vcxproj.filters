@@ -22,6 +22,9 @@
     <ClInclude Include="Hamming74.h">
       <Filter>Block\Concrete</Filter>
     </ClInclude>
+    <ClInclude Include="Hadamard32.h">
+      <Filter>Block\Concrete</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -31,6 +34,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Hamming74.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hadamard32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
