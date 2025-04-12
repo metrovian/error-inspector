@@ -51,5 +51,11 @@
     <ClCompile Include="Golay23.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ReedSolomon73.h">
+      <Filter>Block\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="ReedSolomon73.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
