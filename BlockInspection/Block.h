@@ -5,6 +5,7 @@
 #include <set>
 #include <map>
 #include <bitset>
+#include <algorithm>
 
 class Block
 {
