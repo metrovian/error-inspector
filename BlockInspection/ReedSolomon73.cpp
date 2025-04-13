@@ -35,12 +35,25 @@ ReedSolomon73::symbol ReedSolomon73::symbol::operator*(const symbol& _sym) const
 
 ReedSolomon73::symbol ReedSolomon73::symbol::operator/(const symbol& _sym) const
 {
-	return symbol();
+	return (*this) * _sym.inverse();
 }
 
 ReedSolomon73::symbol ReedSolomon73::symbol::inverse() const
 {
-	return symbol();
+	uint8_t dat = (*this).data.to_ulong();
+	uint8_t pow = 0;
+
+	for (uint8_t i = 0; i < 7; ++i)
+	{
+		pow = symbol(2).power(i).data.to_ulong();
+
+		if (dat == pow)
+		{
+			return symbol(2).power(7 - i);
+}
+	}
+
+	return symbol(1);
 }
 
 ReedSolomon73::symbol ReedSolomon73::symbol::power(uint8_t _num) const
