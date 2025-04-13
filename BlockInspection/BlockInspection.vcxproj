@@ -105,6 +105,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>.\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -120,6 +121,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>.\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -129,21 +131,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Block.h" />
-    <ClInclude Include="Expander84.h" />
-    <ClInclude Include="Golay23.h" />
-    <ClInclude Include="Hadamard32.h" />
-    <ClInclude Include="Hamming74.h" />
+    <ClInclude Include="include\Block.h" />
+    <ClInclude Include="include\Expander84.h" />
+    <ClInclude Include="include\Golay23.h" />
+    <ClInclude Include="include\Hadamard32.h" />
+    <ClInclude Include="include\Hamming74.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Block.cpp" />
-    <ClCompile Include="Expander84.cpp" />
-    <ClCompile Include="Golay23.cpp" />
-    <ClCompile Include="Hadamard32.cpp" />
-    <ClCompile Include="Hamming74.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="ReedSolomon73.cpp" />
-    <ClCompile Include="ReedSolomon73.h" />
+    <ClCompile Include="source\Block.cpp" />
+    <ClCompile Include="source\Expander84.cpp" />
+    <ClCompile Include="source\Golay23.cpp" />
+    <ClCompile Include="source\Hadamard32.cpp" />
+    <ClCompile Include="source\Hamming74.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\ReedSolomon73.cpp" />
+    <ClCompile Include="include\ReedSolomon73.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
