@@ -16,45 +16,45 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Block.h">
+    <ClInclude Include="include\Block.h">
       <Filter>Block\Base</Filter>
     </ClInclude>
-    <ClInclude Include="Hamming74.h">
+    <ClInclude Include="include\Hamming74.h">
       <Filter>Block\Concrete</Filter>
     </ClInclude>
-    <ClInclude Include="Hadamard32.h">
+    <ClInclude Include="include\Hadamard32.h">
       <Filter>Block\Concrete</Filter>
     </ClInclude>
-    <ClInclude Include="Expander84.h">
+    <ClInclude Include="include\Expander84.h">
       <Filter>Block\Concrete</Filter>
     </ClInclude>
-    <ClInclude Include="Golay23.h">
+    <ClInclude Include="include\Golay23.h">
       <Filter>Block\Concrete</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Block.cpp">
+    <ClCompile Include="source\Block.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Hamming74.cpp">
+    <ClCompile Include="source\Hamming74.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Hadamard32.cpp">
+    <ClCompile Include="source\Hadamard32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Expander84.cpp">
+    <ClCompile Include="source\Expander84.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Golay23.cpp">
+    <ClCompile Include="source\Golay23.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ReedSolomon73.h">
+    <ClCompile Include="include\ReedSolomon73.h">
       <Filter>Block\Concrete</Filter>
     </ClCompile>
-    <ClCompile Include="ReedSolomon73.cpp">
+    <ClCompile Include="source\ReedSolomon73.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
