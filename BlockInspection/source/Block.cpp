@@ -2,12 +2,12 @@
 
 bool Block::encode()
 {
-    redc = raw;
-    return true;
+	redc = raw;
+	return true;
 }
 
 bool Block::decode()
 {
-    raw = redc;
-    return true;
+	raw = redc;
+	return true;
 }
