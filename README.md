@@ -1,6 +1,3 @@
-# Error Inspector #
-Personal mathematical software to understand integrity in depth.
-<br/></br>
 ## Block Inspection ##
 - Hamming code
 - Hadamard code
