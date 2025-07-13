@@ -11,5 +11,5 @@
 - Message digest algorithm ( MD5 )
 - Secure hash algorithm ( SHA-2 )
 
-<br/></br> 
+<br/></br>
 Copyright (c) 2025 metrovian [ MIT LICENSE ]
