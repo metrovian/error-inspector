@@ -8,5 +8,5 @@
 - Multiplicative algorithm
 - Fibonacci algorithm
 - Message digest algorithm ( MD5 )
-- Secure hash algorithm ( SHA-2 )
+- Secure hash algorithm ( SHA-256 )
 <br/></br>
